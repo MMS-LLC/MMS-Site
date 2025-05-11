@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Med Mission Supplies</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top-banner">
+    <a href="index.html"><img src="images/MMS_White_Logo.png" alt="MMS Logo" class="logo"></a>
+  </header>
+  <nav class="menu-bar">
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="offerings.html">Our Offerings</a></li>
+      <li><a href="about.html">About &amp; Team</a></li>
+      <li><a href="contact.html" class="active">Contact Us</a></li>
+    </ul>
+  </nav>
+  <main class="page-content">
+    <section class="contact-section">
+      <h2>Contact Us</h2>
+      <!-- Contact Form powered by Formspree -->
+      <!-- Replace value of action with your Formspree endpoint -->
+      <form action="https://formspree.io/f/xkgrvweb" method="POST" class="contact-form">
+        <label>Your Name:<input type="text" name="name" placeholder="Your Name" required></label>
+        <label>Your email:<input type="email" name="email" placeholder="you@example.com" required></label>
+        <label>Your message:<textarea name="message" rows="5" placeholder="How can we help?" required></textarea></label>
+        <button type="submit">Send</button>
+      </form>
+      <p class="form-details">Form powered by Formspree. Sign up at https://formspree.io/ to obtain your unique form ID and receive submissions directly to your inbox.</p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; 2025 Med Mission Supplies</p>
+  </footer>
+</body>
+</html>
